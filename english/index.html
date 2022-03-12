@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/color.css" type="text/css" />
+  <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="../css/sliders.css" type="text/css" />
+  <link rel="stylesheet" href="../css/dark.css" type="text/css" />
+  <link rel="stylesheet" href="../css/media/media.css" type="text/css" />
+
+  <script src="js/Index.js"></script>
+  <link rel="icon" type="image/png" href="../img/icon.png" />
+  <meta name="description" content="Il nostro obiettivo è quello di aiutare i nostri clienti a monitorare ciò che accade all’interno delle loro strutture con sensori e rilevatori e visualizzarne i dati a portata di smartphone mediante la visualizzazione di opportuni grafici, derivati da analisi statistiche mirate, su un sito web dedicato." />
+  <meta name="author" content="Team Graphic designer alba_automated_technology" />
+  <!-- Inizio Keywords -->
+   <meta name="keywords" content="Alba, alba serre, alba auto, alba automated technology, iot, 3bi, altervista siti, siti altervista, pagine spunto, serre
+   mercato verde, green house, alba altervista, pcto 3bi, pcto Its vinci carpi, its vinci carpi progetto, progetto pcto, pcto alba, pcto 3bi Alba, Alba one, progetto alba one, sito controllo, panello di controllo alba ONE,
+   web site open souce, alba Merchandise, chi sono alba, cos'è alba, dove trovare alba, alba sito, alba web site, alba web, alba official, alba quello che vende serre, alba quello che vende chip, Iot Alba" />
+  <!-- Fine KeyWords -->
+</head>
+
+<body>
+  <!-- TABELLA NAV -->
+
+  <button id="dark-mode-toggle" class="dark-mode-toggle">
+    <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+      <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)" />
+    </svg>
+  </button>
+  <script type="text/javascript" src="../js/darkmode.js"></script>
+
+  <header>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <!-- <div class="nav-logo"><a href="index.html"><div class="logo-img"><img src="../img/logo.png" alt="logo"></div><strong>Nome</strong>Nome</a></div> -->
+      <div class="nav-logo"><a href="index.html"><img src="../img/logo.svg" alt="LOGO"></a></div>
+      <ul class="nav-links">
+        <div class="links-link">
+          <li><a href="../index.html">ITA</a></li>
+        </div>
+
+        <div class="links-link">
+          <li><a href="intro.html">About us</a></li>
+        </div>
+        <div class="nav-respo">
+          <div class="respoM">Project</div>
+           <div class="respoF">
+            <li><a href="../html/A1.html">ALBA ONE</a></li>
+            <li><a href="prodotti.html">Merchandise</a></li>
+            <li>Coming soon</li>
+          </div>
+        </div>
+        <div class="links-link">
+          <li><a href="chi_siamo.html">Our Team</a></li>
+        </div>
+        <div class="links-link">
+          <li><a href="dove_siamo.html">Where we are</a></li>
+        </div>
+
+      </ul>
+      <label for="nav-toggle" class="icon-menu">
+        <div class="linea"></div>
+        <div class="linea"></div>
+        <div class="linea"></div>
+      </label>
+    </nav>
+  </header>
+  <!-- COSA VIENE VISUALIZZATO A PRIMA VISTA -->
+  <main>
+    <div class="scroll">
+      <div class="home-focus">
+        <div class="banner">
+          <div class="banner-text">
+            <div class="banner-text-title">A NEW ERA'S <span> <br></span>SUNSHINE</div>
+            <div class="banner-text-content"><code>Welcome to ALBA Automated Technology, we are a start up founded to bring innovation, technology and automation to the agricultural sector,
+			thanks to the use of  <strong>IOT</strong> (Internet of Things)</code></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- TABELLA -->
+      <div class="scroll-title">
+        <h1><span id="project"><span>Proj</span><span>ects</span></h1>
+      </div>
+    </div>
+    <br>
+    <!-- ATLRO -->
+    <div class="slider">
+      <div class="slides" >
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+
+
+
+
+        <div class="slide first">
+          <a href="../html/A1.html"><img src="../img/home/1.png" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="../html/A1.html"><img src="../img/home/ALBA1.png" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="prodotti.html"><img src="../img/home/3.png" alt=""></a>
+        </div>
+        <div class="slide">
+          <img src="../img/home/csoon.png" alt="">
+        </div>
+
+
+
+
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+    <div class="main">
+      <div class="main-scheme">
+
+        <div class="scheme-text">
+          <div class="text-ask"><strong>ALBA Automated Technology</strong></div>
+          <div class="text-askcontent">
+            <div>Our <strong>target</strong> is to help our customers <strong>monitor</strong> their facilities through sensors and detectors,visualizing the data
+			on their smartphones  on a dedicated website by means of appropriate <strong>graphs</strong>, created from targeted statistical analysis.</div>
+          </div>
+        </div>
+        <div class="scheme-image image2">
+          <img src="../img/home/ALBA.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- SERVIZZI OFFERTI -->
+    <div class="serv" id="serv">
+      <h1>Servizi</h1>
+      <div class="serv-tipi">
+
+
+
+
+
+
+
+        <a href="intro.html">
+          <div class="tipo">
+            <h2>Info</h2>
+          </div>
+        </a>
+        <a href="A1.html">
+          <div class="tipo">
+            <h2>Alba One</h2>
+          </div>
+        </a>
+        <a href="chi_siamo.html">
+          <div class="tipo">
+            <h2>Team</h2>
+          </div>
+        </a>
+        <a href="dove_siamo.html">
+          <div class="tipo">
+            <h2>Dove trovarci</h2>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="footer-link">
+        <div class="link-box">
+          <div class="box-cont">
+            <h2>Something about us</h2>
+            <a href="A1.html">What do we do?</a>
+            <a href="intro.html">Who are we?</a>
+          </div>
+          <div class="box-cont">
+            <h2>Technician</h2>
+            <a href="tel:059 695241">Contact us</a>
+            <a href="dove_siamo.html">Where are we?</a>
+          </div>
+        </div>
+        <div class="link-box">
+          <div class="box-cont" style="display:flex;">
+            <h2>Social Media</h2>
+            <a target="_blank" href="https://www.instagram.com/alba_automated_technology/"><img src="../img/icone/instagram.png" width="50" height="50" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100078959793096" target="_blank"><img src="../img/icone/facebook.png" width="50" height="50" /></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCIayVWlYqjTNsNuK7j2Ck-Q"><img src="../img/icone/linkedin.png" width="50" height="50" /></a>
+            <a href="https://twitter.com/ALBA__AT" target="_blank"><img src="../img/icone/twitter.png" width="65" height="50"></a>
+          </div>
+        </div>
+      </div>
+      <section class="social">
+        <div class="social-cont">
+          <div class="cont-logo">
+            <strong>Alba</strong>
+          </div>
+          <p class="cont-diritti"style="padding-left: 20%;">Copyright © 2022 - 2022 ALBA Automated Technology. All rights reserved. </p>
+        </div>
+
+      </section>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>

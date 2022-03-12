@@ -1,0 +1,136 @@
+.test{
+  height: 500px;
+  width: 500px;
+  background: black;
+}
+:root{
+  --clr-primary: white;
+  --clr-secondary: black;
+  --clr-darkW: white;
+  --gtx: black;
+  --greytext: rgb(54, 54, 54);
+  --greyB: white;
+  --hfk: #0E2A39;
+  --hfh: #192063;
+  --wwg: white;
+  --kka: #F5F5F5;
+  --avorio: #F8F8FF;
+  --Bantico:#FFFEEF;
+}
+.darkmode {
+  --clr-primary: rgb(46, 45, 50);
+  --clr-secondary: white;
+  --clr-darkW: #121212;
+  --gtx: grey;
+  --greytext: rgb(186, 186, 183);
+  --greyB:rgb(59, 59, 59);
+  --hfk: white;
+  --hfh: white;
+  --wwg:rgb(82, 82, 82);
+  --kka: rgb(82, 82, 82);
+  --avorio:rgb(158, 158, 158);
+  --Bantico: rgb(51, 51, 51);
+}
+/*Pulsante*/
+.dark-mode-toggle{
+  position: fixed;
+  z-index: 100;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  right: 1rem;
+  bottom:  1rem;
+}
+/*INIZIALIZZAZIONE COLORI*/
+body{
+  background: var(--clr-darkW);
+}
+/*index*/
+.text-ask{
+  color:var(--clr-secondary);
+}
+.text-askcontent{
+  color: var(--greytext);
+}
+  #project span:first-child{
+    color:var(--hfk);
+  }
+  #project span:last-child{
+    color: var(--hfh);
+  }
+.slider{
+  border: 5px solid var(--clr-secondary);
+  box-shadow: 5px 5px 30px black;
+}
+
+
+/*text*/
+  .isekai-kami{
+    border: 2px solid var(--clr-secondary);
+
+  }
+    .kami2evo{
+      background: var(--clr-primary);
+      color: var(--clr-secondary);
+    }
+    .magic-image-text{
+      color: var(--greytext);
+    }
+    /*Pagina Chi siamo*/
+    .language-table tr td {
+      border-bottom: 2px dotted var(--clr-secondary);
+    }
+    .language-table tr:first-child td{
+      border-top: 2px dotted var(--clr-secondary);
+    }
+    .language-table tr td:last-child{
+      color:var(--greytext);
+    }
+    /*Dove siamo*/
+    .fablet{
+			border: 2px ridge var(--clr-secondary);
+		}
+    .fablet thead{
+      border-bottom: 2px solid var(--greytext);
+    }
+    .fablet td{
+      border-right: 1px solid var(--clr-secondary);
+      border-bottom: 1px solid var(--clr-secondary);
+    }
+    .fable, .fable1, .fable2, .clist a:hover{
+      background: var(--greyB);
+      color: var(--clr-secondary);
+    }
+      .clist, .clist a{
+        color: var(--greytext);
+      }
+    /*TEAM*/
+    .chi_group {
+      border: 1px solid var(--clr-secondary);
+    }
+    .chi_group button, .chi_group{
+      background: var(--wwg);
+      color: var(--greytext);
+    }
+    .group_text strong{
+      color: var(--clr-secondary);
+    }
+    .card{
+      background-color: var(--clr-darkW);
+      color:var(--clr-secondary);
+      border: 1px solid var(--clr-secondary);
+      box-shadow: 2px 2px grey;
+    }
+
+    /*Merchandise*/
+    .p_box{
+      border: 3px solid var(--gtx);
+      background: var(--kka);
+    }
+    /*Prodotti*/
+    .graphics{
+      background-color: var(--avorio);
+    }
+    .st{
+      	background: var(--Bantico);
+    }

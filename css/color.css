@@ -1,0 +1,54 @@
+
+
+/*background color*/
+#box-logo{
+    background-color: rgb(231, 101, 101)
+}
+.isekai-kami{
+    background-color: rgb(255, 255, 255);
+}
+.main{
+    background-color: white;
+}
+.box-content h1 {
+    background-color: rgb(247, 85, 139)
+}
+.serv h1{
+    background-color: rgb(235, 94, 76)
+}
+.tipo .special-box, .tipo .special-box {
+    background: rgb(19, 18, 18)
+}
+.box-special:after{
+    background: rgb(19, 94, 31);
+}
+nav, footer{
+  background-color: #0E2A39;
+}
+/*background image*/
+.home-focus{
+  background-image: url(../img/home/1.png);
+  /* background-color:red; */
+}
+.box-content h1 {
+    background-image: linear-gradient(to top, #F9A03F 0%, #ed1a52 100%);
+}
+.box-special{
+    background: #833ab4;
+    background-image: -webkit-linear-gradient(to right, white, #fd1d1d, #833ab4);
+    background-image: linear-gradient(to right, rgb(153, 228, 163), rgb(74, 140, 39), rgb(4, 119, 29));
+}
+.img-n{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+.serv h1{
+    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+}
+.tipo{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+/* Color */
+.nero{
+  color:black;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/color.css" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="css/sliders.css" type="text/css" />
+  <link rel="stylesheet" href="css/dark.css" type="text/css" />
+  <link rel="stylesheet" href="css/media/media.css" type="text/css" />
+
+  <script src="js/Index.js"></script>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+</head>
+
+<body>
+  <!-- TABELLA NAV -->
+
+  <button id="dark-mode-toggle" class="dark-mode-toggle">
+    <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+      <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)" />
+    </svg>
+  </button>
+  <script type="text/javascript" src="js/darkmode.js"></script>
+
+  <header>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <div class="nav-logo"><a href="index.html"><img src="img/logo.svg" alt="LOGO"></strong></a></div>
+      <ul class="nav-links">
+        <div class="links-link">
+          <li><a href="english/index.html">EN</a></li>
+        </div>
+        <div class="links-link">
+          <li><a href="html/chi.html">Chi Siamo</a></li>
+        </div>
+        <div class="nav-respo">
+          <div class="respoM">Prodotti</div>
+          <div class="respoF">
+            <li><a href="html/A1.html">Alba ONE</a></li>
+            <li><a href="html/prodotti.html">Merchandise</a></li>
+            <li>Coming soon</li>
+          </div>
+        </div>
+        <div class="links-link">
+          <li><a href="html/team.html">Il nostro TEAM</a></li>
+        </div>
+
+        <div class="links-link">
+          <li><a href="html/dove_siamo.html">Dove siamo</a></li>
+        </div>
+
+      </ul>
+      <label for="nav-toggle" class="icon-menu">
+        <div class="linea"></div>
+        <div class="linea"></div>
+        <div class="linea"></div>
+      </label>
+    </nav>
+  </header>
+  <!-- COSA VIENE VISUALIZZATO A PRIMA VISTA -->
+  <main>
+    <div class="scroll">
+      <div class="home-focus">
+        <div class="banner">
+          <div class="banner-text">
+            <div class="banner-text-title">A NEW ERA'S <span> <br></span>SUNSHINE</div>
+            <div class="banner-text-content"><code>Benvenuti in ALBA, siamo un start up fondata per creare sistemi
+                d'automaione della serra. Siamo un'azienda del settore <strong>IOT</strong>(Internet of things) </code></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- TABELLA -->
+      <div class="scroll-title">
+        <h1><span id="project"><span>Proj</span><span>ects</span></h1>
+      </div>
+    </div>
+    <br>
+    <!-- ATLRO -->
+    <div class="slider">
+      <div class="slides">
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+          <a href="html/A1.html"><img src="img/home/1.png" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="html/prodotti.html"><img src="img/home/ALBA1.png" alt=""></a>
+        </div>
+        <div class="slide">
+          <img src="img/home/3.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/home/csoon.png" alt="">
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+    <div class="main">
+      <div class="main-scheme">
+
+        <div class="scheme-text">
+          <div class="text-ask"><strong>ALBA Automated Technology</strong></div>
+          <div class="text-askcontent">
+            <div>Il nostro <strong>obiettivo</strong> è quello di aiutare i nostri clienti a <strong>monitorare</strong> ciò che accade all’interno delle loro strutture con sensori e rilevatori e visualizzarne i dati
+      a portata di smartphone mediante la visualizzazione di opportuni <strong>grafici</strong>, derivati da analisi statistiche mirate, su un sito web dedicato.</div>
+          </div>
+        </div>
+        <div class="scheme-image image2">
+          <img src="img/home/ALBA.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- SERVIZZI OFFERTI -->
+    <div class="serv" id="serv">
+      <h1>Servizi</h1>
+      <div class="serv-tipi">
+
+
+
+        <a href="html/chi.html">
+          <div class="tipo">
+            <h2>Info</h2>
+          </div>
+        </a>
+        <a href="html/A1.html">
+          <div class="tipo">
+            <h2>Alba One</h2>
+          </div>
+        </a>
+        <a href="html/team.html">
+          <div class="tipo">
+            <h2>Team</h2>
+          </div>
+        </a>
+        <a href="html/dove_siamo.html">
+          <div class="tipo">
+            <h2>Dove trovarci</h2>
+          </div>
+        </a>
+    </div>
+    </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+			<div class="footer-link">
+				<div class="link-box">
+					<div class="box-cont">
+						<h2>Qualcosa di noi</h2>
+						<a href="html/chi.html">Cosa facciamo?</a>
+						<a href="html/team.html">Chi siamo?</a>
+					</div>
+					<div class="box-cont">
+						<h2>Tecnico</h2>
+						<a href="tel:059 695241">Contattaci</a>
+						<a href="html/dove_siamo.html">Dove siamo?</a>
+					</div>
+				</div>
+				<div class="link-box">
+					<div class="box-cont">
+						<h2>Social Media</h2>
+						<div>
+							<a target="_blank" href="https://www.instagram.com/alba_automated_technology/"><img src="img/icone/instagram.png" width="30" height="30" /></a>
+							<a href="https://www.facebook.com/profile.php?id=100078959793096" target="_blank"><img src="img/icone/facebook.png" width="30" height="30" /></a>
+							<a target="_blank" href="https://www.youtube.com/channel/UCIayVWlYqjTNsNuK7j2Ck-Q"><img src="img/icone/linkedin.png" width="30" height="30" /></a>
+							<a href="https://twitter.com/ALBA__AT" target="_blank"><img src="img/icone/twitter.png" width="45" height="30"></a>
+							<a href="mailto:motf030004@istruzione.it" target="_blank"><img src="img/icone/gmail.png" width="40" height="35"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="social">
+				<div class="social-cont">
+					<div class="cont-logo">
+						<strong>ALBA</strong>
+					</div>
+					<p class="cont-diritti"style="padding-left: 20%;">Copyright © 2022 - 2022 ALBA Automated Technology. All rights reserved. </p>
+				</div>
+		</section>
+	</footer>
+</body>
+
+</html>

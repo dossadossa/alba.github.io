@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>HOME</title>
+  <link rel="stylesheet" href="../css/color.css" type="text/css" />
+  <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="../css/sliders.css" type="text/css" />
+  <link rel="stylesheet" href="../css/text.css" type="text/css" />
+  <link rel="stylesheet" href="../css/media/media.css" type="text/css" />
+  <link rel="stylesheet" href="../css/media/media-text.css" type="text/css" />
+  <link rel="stylesheet" href="../css/media/media_p.css" type="text/css" />
+  <link rel="stylesheet" href="../css/A1.css" type="text/css" />
+  <link rel="stylesheet" href="../css/dark.css" type="text/css" />
+  <link rel="icon" type="image/png" href="../img/icon.png" />
+</head>
+
+<body>
+  <button id="dark-mode-toggle" class="dark-mode-toggle">
+    <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+      <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)" />
+    </svg>
+  </button>
+  <script type="text/javascript" src="../js/darkmode.js"></script>
+  <!-- TABELLA NAV -->
+  <header>
+
+
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <!-- <div class="nav-logo"><a href="index.html"><div class="logo-img"><img src="../img/logo.png" alt="logo"></div><strong>Nome</strong>Nome</a></div> -->
+      <div class="nav-logo"><a href="../index.html"><img src="../img/logo.svg" alt="LOGO"></a></div>
+      <ul class="nav-links">
+        <!-- <div class="links-link">
+          <li><a href="../english/intro.html">EN</a></li>
+        </div> -->
+        <div class="links-link">
+          <li><a href="../html/chi.html">Chi Siamo</a></li>
+        </div>
+        <div class="nav-respo">
+          <div class="respoM">Prodotti</div>
+          <div class="respoF">
+            <li><a href="A1.html">ALBA ONE</a></li>
+            <li><a href="prodotti.html">Merchandise</a></li>
+            <li>Coming soon</li>
+          </div>
+        </div>
+        <div class="links-link">
+          <li><a href="../html/team.html">Il nostro TEAM</a></li>
+        </div>
+        <div class="links-link">
+          <li><a href="../html/dove_siamo.html">Dove siamo</a></li>
+        </div>
+
+      </ul>
+      <label for="nav-toggle" class="icon-menu">
+        <div class="linea"></div>
+        <div class="linea"></div>
+        <div class="linea"></div>
+      </label>
+    </nav>
+  </header>
+  <!-- La granparte dei css si trova in text.css -->
+  <!-- inizio isekai -->
+  <main>
+    <div class="isekai">
+      <div class="isekai-kami">
+        <div class="kami1head">Alba ONE</div>
+
+        <div class="kami2evo">
+
+            <div class="graphics">
+
+
+              <div class="gr_1">
+                <div class="sliderP">
+                  <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide">
+                      <!-- <img id="graph1" name="graph" src="_grafici/daily/water/01012022.png" alt= img src="_grafici/daily/water/01012022.jp" /> -->
+                      <img id="graph1" name="graph" src="_grafici/daily/water/01012022.png" onerror="this.src='_grafici/daily/water/01012022.jpg';" alt="Immagine">
+                    </div>
+                    <div class="slide">
+                      <img id="graph2" name="graph2" src="_grafici/daily/umiditaAria/01012022.png" onerror="this.src='_grafici/daily/water/01012022.jpg';" alt="Immagine">
+                    </div>
+                    <div class="slide">
+                      <img id="graph3" name="graph3" src="_grafici/daily/umiditaTerra/01012022.png" onerror="this.src='_grafici/daily/water/01012022.jpg';" alt="Immagine">
+                    </div>
+                    <div class="slide">
+                      <img id="graph4" name="graph4" src="_grafici/daily/temp/01012022.png" onerror="this.src='_grafici/daily/water/01012022.jpg';" alt="Immagine">
+                    </div>
+                  </div>
+                  <div id="tipes" name="tipes" class="navigation-manual">
+                    <button id="Valore" for="radio1" class="manual-btn" value="temp" onclick="choice('temp')">Temperatura</button>
+                    <button for="radio2" class="manual-btn" value="umiditaAria" onclick="choice('umiditaAria')"> Umidita</button>
+                    <button for="radio3" class="manual-btn" value="umiditaTerra" onclick="choice('umiditaTerra')">Umidita del terreno</button>
+                    <button for="radio4" class="manual-btn" value="water" onclick="choice('water')"> Livello dell'acqua</button>
+                  </div>
+                </div>
+              </div>
+              <div class="st">
+                <div class="inp">
+                  <div id="element">
+                    <p>Giorno</p>
+                    <input type="number" id="day" name="day" min="01" max="31" value="01" oninput="javascript:choice(); format('day');" />
+                  </div>
+                  <p>Mese</p>
+                  <input type="number" id="month" name="month" min="01" max="12" value="01" oninput="javascript:choice(); format('month');" />
+                  <p>Anno</p>
+                  <input type="number" id="year" name="year" min="2022" max="100000" value="2022" oninput="javascript:choice(); " />
+                </div>
+                <div class="textBox">
+                  <div class="gf">
+                    <div class="gd">
+                      <p>Grandezza grafico</p>
+                      <select id="dim" name="dim">
+                        <option value="daily">Giornaliero</option>
+                        <option value="weekly">Settimanale</option>
+                        <option value="monthly">Mensile</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="istruzioni">
+                  <p> Istruzioni: </p>
+                  <ul>
+                    <li> Immettere la data della <br />quale si vuole analizzare il grafico </li>
+                    <li> Scegliere l'arco di tempo se<br /> giornaliero mensile o settimanale</li>
+                    <li> Scegliere l'argomento dell<br /> analisi del grafico</li>
+                  </ul>
+                </div>
+              </div>
+              <script src="temp.js"></script>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+			<div class="footer-link">
+				<div class="link-box">
+					<div class="box-cont">
+						<h2>Qualcosa di noi</h2>
+            <a href="chi.html">Cosa facciamo?</a>
+            <a href="team.html">Chi siamo?</a>
+					</div>
+					<div class="box-cont">
+						<h2>Tecnico</h2>
+						<a href="tel:059 695241">Contattaci</a>
+						<a href="dove_siamo.html">Dove siamo?</a>
+					</div>
+				</div>
+				<div class="link-box">
+					<div class="box-cont">
+						<h2>Social Media</h2>
+						<div>
+							<a target="_blank" href="https://www.instagram.com/alba_automated_technology/"><img src="../img/icone/instagram.png" width="30" height="30" /></a>
+							<a href="https://www.facebook.com/profile.php?id=100078959793096" target="_blank"><img src="../img/icone/facebook.png" width="30" height="30" /></a>
+							<a target="_blank" href="https://www.youtube.com/channel/UCIayVWlYqjTNsNuK7j2Ck-Q"><img src="img/icone/linkedin.png" width="30" height="30" /></a>
+							<a href="https://twitter.com/ALBA__AT" target="_blank"><img src="../img/icone/twitter.png" width="45" height="30"></a>
+							<a href="mailto:motf030004@istruzione.it" target="_blank"><img src="../img/icone/gmail.png" width="40" height="35"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="social">
+				<div class="social-cont">
+					<div class="cont-logo">
+						<strong>ALBA</strong>
+					</div>
+					<p class="cont-diritti"style="padding-left: 20%;">Copyright © 2022 - 2022 ALBA Automated Technology. All rights reserved. </p>
+				</div>
+		</section>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+@media screen and (max-width: 1400px){
+	.fable{
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.fable1{
+		width: 100%;
+	}
+	.fable2{
+		width: 90%;
+		height: 30vh;
+		margin:auto;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	.language-table{
+		padding-left: 10%;
+		padding-right:10%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.p_box{
+		display:blocK;
+		padding: 20px;
+	}
+		.p_image{
+			width:80%;
+			height: 25%;
+			margin-right:auto;
+			margin-left:auto;
+		}
+		.p_box-text{
+			width: 100%;
+		}
+		.p_btn{
+			width: 100%;
+			margin-top:none;
+		}
+			.p_btn button{
+				margin-top:0%;
+			}
+}
+@media screen and (max-width: 800px){
+	.isekai-kami{
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	.magic-language{
+		font-size: 20px;
+	}
+	.language-table{
+		padding-left: 5%;
+		padding-right:5%;
+	}
+		.magic-image{
+			display: inline;
+			border-bottom:none;
+		}
+			.magic-image img{
+				width: 90%;
+			}
+			.magic-image-text{
+				font-size: 20px;
+			}
+
+}
+
+@media screen and (max-width: 450px){
+	.language-table{
+		padding-left: 2%;
+		padding-right:2%;
+	}
+}
